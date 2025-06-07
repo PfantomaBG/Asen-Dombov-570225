@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1e1c1c;
+  color: #f0f0f0;
+
+}
+
+.background {
+  background-image: url("../images/background\ heder.png");
+}
+
+.opacyty {
+  background: rgba(0, 0, 0, 0.8)
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+
+}
+
+header nav a {
+  color: #f0f0f0;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #e6ddc4;
+}
+
+.hero span {
+  font-style: italic;
+  color: #c9baa9;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.images img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  max-width: 400px;
+}
+
+.left h2 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.right p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.date {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.Zaglavie {
+  margin-left: 35%;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.flex-box>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img {
+  max-width: 180px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.img1 {
+  transform: translate(3px, 422px);
+}
+
+.img2 {
+  transform: translate(100px, 90px);
+}
+
+.img3 {
+  transform: translate(374px, 573px);
+}
+
+.img4 {
+  transform: translate(201px, 217px);
+}
+
+.img5 {
+  transform: translate(153px, 521px);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 40px;
+  width: 100%;
+  height: 1350px;
+  margin: auto;
+  background-color: #111;
+}
+
+.nadolo {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  gap: 40px;
+  width: 100%;
+  height: 380px;
+  margin: auto;
+  background-color: #111;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid white;
+  margin-left: 15%;
+}
+
+
+.text-section {
+  max-width: 700px;
+  margin-left: 5%;
+}
+
+.text-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.text-section p strong {
+  color: #fff;
+}
+
+.Wats_next {
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.Wats_next h1 {
+  font-size: 36px;
+  color: white;
+}
+
+.Wats_next p {
+  color: #ccc;
+  font-size: 18px;
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+}
+
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.split-section .image-box {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.split-section img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #444;
+}
+
+.heading {
+  text-align: right;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ticket-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.ticket {
+  flex: 1;
+  background: #2b2b2b;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #444;
+  text-align: center;
+  height: 220px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.label {
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.info div {
+  flex: 1;
+  margin: 10px;
+}
+
+footer {
+  background: #ff3c1f;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+    input[type="text"],
+    input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #eee;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 12px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    label {
+      font-size: 12px;
+      margin-top: 10px;
+    }
